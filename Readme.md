@@ -73,11 +73,8 @@ Sumber dataset: [Kaggle - Book Crossing Dataset](https://www.kaggle.com/datasets
 **Exploratory Data Analysis (EDA):**
 
 * **Distribusi Rating**: Data rating didominasi oleh nilai 0 (implisit). Rating eksplisit berkisar antara 1 hingga 10, dengan rating 8 dan 10 cukup dominan.
-
-
 * **Distribusi Kategori**: Terdapat ribuan kategori unik. Kategori "Fiction" adalah yang paling banyak muncul, diikuti oleh "Juvenile Fiction" dan "Biography & Autobiography".
-* 
-**Format Kategori**: Ditemukan bahwa penulisan kategori pada data mentah tidak bersih (contoh: `['Social Science']`), sehingga memerlukan pembersihan teks.
+* **Format Kategori**: Ditemukan bahwa penulisan kategori pada data mentah tidak bersih (contoh: `['Social Science']`), sehingga memerlukan pembersihan teks.
 
 
 
@@ -201,3 +198,4 @@ Maka perhitungan presisinya adalah:
 **Kesimpulan:**
 
 Sistem rekomendasi berhasil mengidentifikasi dan menyarankan buku dengan kategori yang sama persis dengan buku yang dicari pengguna. Nilai presisi 100% pada sampel uji ini menunjukkan bahwa representasi fitur kategori menggunakan TF-IDF dan perhitungan jarak menggunakan Cosine Similarity bekerja dengan sangat baik untuk mengelompokkan buku berdasarkan genrenya.
+
