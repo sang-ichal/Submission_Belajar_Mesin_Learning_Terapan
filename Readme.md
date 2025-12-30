@@ -62,29 +62,12 @@ Sumber dataset: [Kaggle - Book Crossing Dataset](https://www.kaggle.com/datasets
 
 **Variabel-variabel pada Book-Crossing dataset yang digunakan:**
 
-* 
-`user_id`: Identitas unik pengguna (Anonymized).
-
-
-* 
-`book_title`: Judul buku.
-
-
-* 
-`book_author`: Penulis buku.
-
-
-* 
-`publisher`: Penerbit buku.
-
-
-* 
-`Category`: Kategori atau genre buku (Fitur utama untuk pemodelan).
-
-
-* 
-`rating`: Penilaian buku oleh pengguna (skala 1-10).
-
+* `user_id`: Identitas unik pengguna (Anonymized).
+* `book_title`: Judul buku.
+* `book_author`: Penulis buku.
+* `publisher`: Penerbit buku.
+* `Category`: Kategori atau genre buku (Fitur utama untuk pemodelan).
+* `rating`: Penilaian buku oleh pengguna (skala 1-10).
 
 
 **Exploratory Data Analysis (EDA):**
@@ -216,4 +199,5 @@ Maka perhitungan presisinya adalah:
 
 
 **Kesimpulan:**
+
 Sistem rekomendasi berhasil mengidentifikasi dan menyarankan buku dengan kategori yang sama persis dengan buku yang dicari pengguna. Nilai presisi 100% pada sampel uji ini menunjukkan bahwa representasi fitur kategori menggunakan TF-IDF dan perhitungan jarak menggunakan Cosine Similarity bekerja dengan sangat baik untuk mengelompokkan buku berdasarkan genrenya.
